@@ -1,0 +1,6 @@
+from sympy import*
+var('x,y')
+y=x**2
+f=-y*diff(x,x)+x*diff(y,x)
+soln=integrate(f,[x,0,1])
+print ("I =", soln)
