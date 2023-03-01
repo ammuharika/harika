@@ -1,0 +1,5 @@
+from sympy import*
+var('x,y,z')
+f=exp(x+y+z)
+soln=integrate (f,[y,0,1],[x,0,1])
+print ("I=", soln)
