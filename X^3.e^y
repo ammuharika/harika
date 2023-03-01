@@ -1,0 +1,6 @@
+from sympy import*
+var('x,y')
+f=x**3*exp(y)
+soln=integrate (f,[y,0,1],[x,0,1])
+print ("I=",)
+pprint (soln)
